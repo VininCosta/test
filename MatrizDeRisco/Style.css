@@ -1,0 +1,31 @@
+body {
+    font-family: Roboto, serif;
+}
+
+.container {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    table-layout: fixed;
+  }
+  td, th {
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+
+table, thead, tbody, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.selected {
+  background-color: #ccc;
+}
+

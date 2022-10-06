@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+main {
+    height: 740px;
+    flex: 1;
+    margin-left: 4px;
+    
+}
+
+aside {
+     height: 730px;
+     width: 200px;
+     border: 1px solid #000;
+}
+
+/* CSS do aside */
+
+.aside__bot {
+    margin-top: 365px;
+}
+
+/* CSS do main */
+
+fieldset {
+    border: 2px solid rgb(242, 242, 242);
+}
+
+legend {
+    color: rgb(100, 167, 128);
+}
+
+.text__green {
+    background-color: rgb(33, 133, 70);
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn {
+    border-radius: 0;
+    height: 40px;
+    width: 25%;
+    margin-left: 25px;
+    border: none;
+    position: relative;
+    left: 10%;
+}
+
+
+.filtros {
+    display: flex;
+}
+
+input {
+    top: 100px;
+}
+
+.btn-search {
+    width: 15rem;
+    height: 2rem;
+}
+
+.filtros input {
+    height: 20px;
+    background-color: rgb(245, 245, 245);
+    border: .5px solid #000;
+}
+
+.filtros select {
+    height: 20px;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+}
+
+table td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+thead {
+    background-color: rgb(33, 133, 70);
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tbody {
+    background-color: rgb(250, 250, 210);
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style2.css">
+    <script src="https://kit.fontawesome.com/694cf10c2b.js" crossorigin="anonymous"></script>
+    <title>Filtragem</title>
+</head>
+<body>
+    <section>
+        <aside>
+            <div class="aside__top">
+            <p class="text__green">Navigation</p>
+            <p>Hierarcy</p>
+            <p style="background-color: rgb(230,230,239);">Location &#9662;</p>
+        </div>
+        <div class="aside__bot">
+            <p><img src="./assests/icon1.png">Downtime</p> <hr>
+            <p><img src="./assests/icon2.png" alt="">Knowledge</p> <hr>
+            <p><img src="./assests/icon3.png" alt="">Maintenance</p> <hr>
+            <p><img src="./assests/icon4.png" alt="">Metrics</p> <hr>
+            <p><img src="./assests/icon5.png" alt="">Planning</p> <hr>
+            <p><img src="./assests/icon6.png" alt="">Production</p> <hr>
+            <p><img src="assests/icon7.png" alt="">Quality</p> <hr>
+        </div>
+        </aside>
+        <main>
+            <div class="principal"></div>
+            <p class="text__green">Document</p>
+            <div class="nav">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+            </div>
+            <h3 class="text__green">Triagem de Paradas: Filtragem</h3> <br>
+            <fieldset class="tabela__principal">
+            <legend><b>Cards: últimos 5 dias</b></legend> 
+            <button class="btn" style="color: #fff; background-color: rgb(117, 150, 255);">PARADAS NÃO-CLASSIFICADAS: 4</button>
+            <button class="btn" style="color: #fff; background-color: rgb(205, 92, 92);">OSs ABERTAS: 345</button>
+            <button class="btn" style="color: #fff; background-color: rgb(176, 224, 230);">PARADAS C/ CLASS. REJEITADA: 0</button>
+            <br><br>
+            <fieldset>
+                <legend><b>Filtros</b></legend> <br>
+                <div class="filtros">
+                <p>Data Início:</p> <input class="input__filtros" type="datetime">
+                <p>Data Fim:</p> <input class="input__filtros" type="datetime">
+                <p>Categorias:</p>
+                    <select>
+                     <option>Classificação</option>
+                </select> 
+                <p>Buscar</p>
+                <input class="input__filtros" type="text" name="" id="">
+                <p>Exibir Filhas?</p>
+                <input type="checkbox">
+                <button class="btn-search">Pesquisar</button>
+            </div>
+            </fieldset> <br>
+                <fieldset>
+                    <legend><b>Paradas(Modo Automático de Criação de OS)</b></legend> <br>
+                    <div class="paradas">
+                    <table>
+                        <thead>
+                        <tr>
+                        <th>Selecionar</th>
+                        <th><u>id</u></th>
+                        <th><u>Data de Inicio</u></th>
+                        <th><u>Fim</u></th>
+                        <th><u>Local</u></th>
+                        <th><u>Local Causa</u></th>
+                        <th><u>Causa</u></th>
+                        <th><u>Classificação</u></th>
+                        <th><u>Comentários da Operação</u></th>
+                        <th><u>Cometários da Manutenção</u></th>
+                        <th><u>Ordem de Serviço</u></th>
+                        <th><u>Agrupamento</u></th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283853</td>
+                        <td>2022-09-15 02:27:12</td>
+                        <td>2022-09-15 02:56:31</td>
+                        <td>2211-FL-05</td>
+                        <td>2211-FL-05</td>
+                        <td>Desgaste-7102</td>
+                        <td>Mecânica Corretiva-D100</td>
+                        <td>Furo na mangueira de água de selagem</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283843</td>
+                        <td>2022-09-15 01:37:28</td>
+                        <td>2022-09-15 01:54:14</td>
+                        <td>2714-BA-10</td>
+                        <td>2714-BA-10</td>
+                        <td>Curto-circuito-Sobrecorrente-7023</td>
+                        <td>Eletroeletrônica Corretiva-D100</td>
+                        <td></td>
+                        <td></td>
+                        <td><u>004006409992</u></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283809</td>
+                        <td>2022-09-14 18:28:22</td>
+                        <td>2022-09-14 18:36:17</td>
+                        <td>2714-BA-10</td>
+                        <td>2714-BA-10</td>
+                        <td>Disjuntores-Fusiveis-Dispositivos de proteção elétrica-7016</td>
+                        <td>Eletroeletrônica Corretiva-D100</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283807</td>
+                        <td>2022-09-14 18:13:31</td>
+                        <td>2022-09-14 18:15:12</td>
+                        <td>2212-BA-30</td>
+                        <td>2212-BA-30</td>
+                        <td>Disjuntores-Fusiveis-Dispositivos de proteção elétrica-7016</td>
+                        <td>Eletroeletrônica Corretiva-D100</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283785</td>
+                        <td>2022-09-14 12:10:00</td>
+                        <td>2022-09-14 14:10:12</td>
+                        <td>2211-FL-10</td>
+                        <td>2211-FL-10</td>
+                        <td>Tubulação-7113</td>
+                        <td>Mecânica Corretiva-D100</td>
+                        <td>Troca do carretel abaixo da KPV102</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283784</td>
+                        <td>2022-09-14 09:57:00</td>
+                        <td>2022-09-14 11:06:23</td>
+                        <td>2211-FL-08</td>
+                        <td>2211-FL-08</td>
+                        <td>Tubulação-7113</td>
+                        <td>Mecânica Corretiva-D100</td>
+                        <td>Sanado vazamento na linha de recalque de ácido nítrico</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283783</td>
+                        <td>2022-09-14 09:45:00</td>
+                        <td>2022-09-14 10:18:12</td>
+                        <td>2211-FL-12</td>
+                        <td>2211-FL-12</td>
+                        <td>Placa cerâmica-7127</td>
+                        <td>Mecânica Corretiva-D100</td>
+                        <td>Troca de uma placa</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283778</td>
+                        <td>2022-09-14 11:21:20</td>
+                        <td>2022-09-14 11:27:07</td>
+                        <td>2211-FL-04</td>
+                        <td>2211-FL-04</td>
+                        <td>Falha de componente elétrico-7019</td>
+                        <td>Eletroeletrônica Corretiva-D100</td>
+                        <td>Troca dos conectores da rede dos inversores</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>283776</td>
+                        <td>2022-09-14 11:12:01</td>
+                        <td>2022-09-14 11:15:35</td>
+                        <td>2211-FL-04</td>
+                        <td>2211-FL-04</td>
+                        <td>Falha de componente elétrico-7019</td>
+                        <td>Eletroeletrônica Corretiva-D100</td>
+                        <td>Troca dos conectores da rede dos inversores</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                    </table>
+                </div>
+                </fieldset>
+            </div>
+    </div>
+        </main>
+    
+    
+</section>
+
+</body>
+</html>
